@@ -1,0 +1,28 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+    color: #7D7D7D;
+    font-size: 15px;
+    line-height: 42px;
+    letter-spacing: 1%;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        color: black;
+        // text-decoration: underline;
+    }
+}
+
